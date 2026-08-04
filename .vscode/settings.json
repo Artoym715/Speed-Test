@@ -1,0 +1,7 @@
+{
+  "liveServer.settings.donotInject": true,
+  "liveServer.settings.ignoreFiles": [
+    "**/*.svg",
+    "**/assets/images/app.svg"
+  ]
+}

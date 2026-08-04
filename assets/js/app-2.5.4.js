@@ -8,7 +8,9 @@
 */ 
 window.onload = function() {
   var appSVG = document.getElementById("OpenSpeedTest-UI");
-  appSVG.parentNode.replaceChild(appSVG.contentDocument.documentElement, appSVG);
+  if (appSVG && appSVG.contentDocument && appSVG.contentDocument.documentElement) {
+    appSVG.parentNode.replaceChild(appSVG.contentDocument.documentElement, appSVG);
+  }
   ostOnload();
   OpenSpeedTest.Start();
 };
