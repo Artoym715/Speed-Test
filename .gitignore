@@ -1,1 +1,4 @@
 .DS_Store
+.agent/
+.env
+.ai-factory.json
